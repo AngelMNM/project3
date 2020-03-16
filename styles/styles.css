@@ -7,3 +7,240 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+a {
+	text-decoration: none;
+}
+html {
+	background-image: url("../images/back1.jpg");
+	background-color: #cccccc;
+}
+
+body {
+	width: 80%;
+	background-color: #ffffff;
+	margin:0 auto;
+	font-family: 'Annie Use Your Telescope', cursive;
+}
+
+header {
+		height: 146px;
+		background-image: url("../images/file0087.jpg");
+		display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+h1, h2 {
+	font-family: 'Pacifico', cursive;
+}
+
+main {
+	display:flex;
+	flex-flow: row wrap;
+	justify-content:space-evenly;
+	margin-top: 10px;
+	}
+
+
+
+	figure {
+		width: 33%;
+	}
+	figure img {
+		width: 100%;
+	}
+
+.container {
+	width: 20%;
+	height: 100px;
+	background-color: white;
+
+}
+.desktop-menu ul	{
+	width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.desktop-menu ul li	{
+	font-size: 1.8rem;
+}
+
+.headerimage {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+.mieuxhead {
+	text-align: center;
+  margin: 0 auto;
+  font-size: 2.2rem;
+/*  position: absolute; */
+  width: 80%;
+  background-color: rgba(193, 66, 66, 0.3);
+  color: white;
+}
+
+
+	/* -------- Hamburger CSS Code
+							https://codepen.io/g13nn/pen/eHGEF  ------------- */
+
+	.hamburger{
+		background: none;
+		    position: absolute;
+		    top: 6px;
+		    right: 0;
+		    line-height: 35px;
+		    padding: 5px 15px 0px 15px;
+		    color: #ffffff;
+		    border: 0;
+		    font-size: 2.5em;
+		    font-weight: bold;
+		    cursor: pointer;
+		    outline: none;
+		    z-index: 10000000000000;
+	}
+	.cross{
+	  background:none;
+	  position:absolute;
+	  top:0px;
+	  right:0;
+	  padding:7px 15px 0px 15px;
+	  color:#999;
+	  border:0;
+	  font-size:3em;
+	  line-height:65px;
+	  font-weight:bold;
+	  cursor:pointer;
+	  outline:none;
+	  z-index:10000000000000;
+	}
+	.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+	.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu li:hover{display: block;    background:#6766b3; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+	.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+	.menu ul li a:hover {  color: #c0bfff; text-decoration:none;}
+	.menu a{text-decoration:none; color:#666;}
+	.menu a:hover{text-decoration:none; color:#666;}
+
+	.glyphicon-home{
+	  color:white;
+	  font-size:1.5em;
+	  margin-top:5px;
+	  margin:0 auto;
+	}
+
+	.edmisc {
+		clear:both;
+		width: 100%;
+	}
+
+	.desktop-menu a {
+		transition: .5s;
+		}
+
+
+
+	/*-----------------------Animation-----------------------------*/
+	/* .work {
+	 border-radius: 5px;
+	 transition: 3.5s;
+	 box-shadow: 0 0 0px #23273D;
+	 filter: contrast(200%);
+	 filter: grayscale(70%);
+	}
+	*/
+
+	.desktop-menu a:hover {
+				font-size: 2.1rem;
+			transition: 1s;
+			transform: rotateZ(-1deg);
+			letter-spacing:.1em;
+			}
+
+/* ---- for ideas
+
+	.work:hover {
+		border-radius: 15px;
+	  -webkit-box-shadow:0 15px 6px #00000A;
+	  -ms-box-shadow:0 15px 6px #00000A;
+	  -moz-box-shadow:0 15px 6px #00000A;
+	  box-shadow: 0 15px 6px #00000A;
+	  transition: .5s;
+		filter: contrast(100%);
+		filter: grayscale(0);
+	}
+*/
+/* ---------- Min Width 320px  ------------------*/
+@media (min-width: 320px) {
+	body {
+		width: 100%;
+	}
+
+	header {
+			width: 100%;
+			background-size: cover;
+			}
+	.desktop-menu {
+		display: none;
+	}
+
+	figure {
+		width: 90%;
+		}
+		figure img {
+			width: 100%;
+		}
+
+}
+
+/* ---------- Min Width 768px  ------------------*/
+@media (min-width: 768px) {
+	.mieuxhead {
+	  font-size: 3.2rem;
+	  width: 70%;
+	 }
+	 .menu {
+		 width: 70%;
+	   margin-left: 30%;
+	 }
+	 header {
+		 background-position: 1px -103px;
+	 }
+
+}
+/* ---------- Min Width 1000px  ------------------*/
+@media (min-width: 1000px) {
+	body {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.mieuxhead {
+	  font-size: 3.2rem;
+	  width: 70%;
+	 }
+	 .menu, .hamburger, .cross {
+		 display: none;
+	 }
+	 .desktop-menu {
+		 display: flex;
+		 justify-content: space-evenly;
+		}
+		.desktop-menu li {
+			display:inline-flex;
+			}
+   /*
+	 main figure:nth-child(2) {
+	 				flex-grow:0;
+					flex-basis: 50%;
+	 			}
+	*/
+
+	 header {
+		 background-position: 1px -152px;
+	 }
+	 figure {
+		 width: 30%;
+	 }
+
+}

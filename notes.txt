@@ -1,0 +1,8 @@
+notes
+
+https://www.tutorialrepublic.com/codelab.php?topic=faq&file=placing-text-over-an-image-with-css
+
+https://stackoverflow.com/questions/1175557/how-to-shift-a-background-image-with-css
+
+
+https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/
