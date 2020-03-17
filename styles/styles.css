@@ -13,6 +13,8 @@ a {
 html {
 	background-image: url("../images/back1.jpg");
 	background-color: #cccccc;
+	background-attachment: fixed;
+
 }
 
 body {
@@ -20,6 +22,7 @@ body {
 	background-color: #ffffff;
 	margin:0 auto;
 	font-family: 'Annie Use Your Telescope', cursive;
+	max-width: 1430px;
 }
 
 header {
@@ -42,14 +45,26 @@ main {
 	}
 
 
-
 	figure {
 		width: 33%;
 	}
+
 	figure img {
 		width: 100%;
 	}
 
+	footer {
+		width: 100%;
+		height: 45px;
+		background-color: #C14242;
+	}
+	footer p {
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		font-size: 1.5rem;
+	}
 .container {
 	width: 20%;
 	height: 100px;
@@ -60,7 +75,7 @@ main {
 	width: 90%;
   display: flex;
   justify-content: space-evenly;
-}
+	}
 .desktop-menu ul li	{
 	font-size: 1.8rem;
 }
@@ -80,6 +95,10 @@ main {
   color: white;
 }
 
+
+.mieuxfriends{
+	display: flex;
+	}
 
 	/* -------- Hamburger CSS Code
 							https://codepen.io/g13nn/pen/eHGEF  ------------- */
@@ -137,6 +156,7 @@ main {
 
 	.desktop-menu a {
 		transition: .5s;
+		margin: auto;
 		}
 
 
@@ -152,11 +172,23 @@ main {
 	*/
 
 	.desktop-menu a:hover {
-				font-size: 2.1rem;
-			transition: 1s;
+			font-size: 2rem;
+			transition: .3s;
 			transform: rotateZ(-1deg);
-			letter-spacing:.1em;
+			/*letter-spacing:.05em;*/
+			text-align: center;
+			color: #ffffff;
 			}
+ .desktop-menu li:hover {
+	   background-color: #9a3434;
+		 text-align: center;
+		 transition: 1.2s;
+ }
+.desktop-menu:hover {
+		background-color: rgba(193, 66, 66, .5);
+		transition: .2s;
+
+}
 
 /* ---- for ideas
 
@@ -187,10 +219,18 @@ main {
 
 	figure {
 		width: 90%;
+		max-width: 420px;
 		}
-		figure img {
+
+
+	figure img {
 			width: 100%;
 		}
+
+	.mieuxfriends img {
+		height: 216px;
+		object-fit:cover;
+	}
 
 }
 
@@ -208,7 +248,13 @@ main {
 		 background-position: 1px -103px;
 	 }
 
+	 .mieuxfriends figure {
+		width: 28%;
+		object-fit:cover;
+ 	}
 }
+
+
 /* ---------- Min Width 1000px  ------------------*/
 @media (min-width: 1000px) {
 	body {
@@ -225,10 +271,11 @@ main {
 	 .desktop-menu {
 		 display: flex;
 		 justify-content: space-evenly;
+		 transition: .2s;
 		}
 		.desktop-menu li {
 			display:inline-flex;
-			}
+			width: 20%;}
    /*
 	 main figure:nth-child(2) {
 	 				flex-grow:0;
