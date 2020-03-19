@@ -358,11 +358,13 @@ main {
 }
 
 .ih-item.square {
-  /* position: relative; */
-  width: 28%;
+	margin: 0 0 1.2rem 0;
+	/* position: relative; */
+	width: 28%;
 	height: 216px;
-  border: 8px solid #fff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	/* border: 8px solid #fff; */
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+	background-color: #4c443b;
 }
 .ih-item.square .info {
   position: absolute;
