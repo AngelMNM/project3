@@ -19,7 +19,7 @@ html {
 
 body {
 	width: 80%;
-	background-color: #ffffff;
+	background-color: #ffffff60;
 	margin:0 auto;
 	font-family: 'Annie Use Your Telescope', cursive;
 	max-width: 1430px;
@@ -400,8 +400,14 @@ main {
 			object-fit:cover;
 		}
 
-	.mieuxfriends img {
+	.friendblurb {
+		width: 90%;
+		margin: 0 auto 10px;
+	}
 
+	.friendblurb h2 {
+		margin: 0 auto;
+		text-align: center;
 	}
 }
 
