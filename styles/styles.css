@@ -63,7 +63,8 @@ main {
 		margin: 0 auto;
 		text-align: center;
 		color: white;
-		font-size: 1.5rem;
+		font-size: 1rem;
+		padding: 9px;
 	}
 
 .container {
@@ -97,10 +98,25 @@ main {
 }
 
 
-.mieuxfriends{
+.mieuxfriends, .mainpagetext{
 	display: flex;
+		}
+	.mainpagetext {
+		width: 100%;
+		justify-content: space-evenly;
+		flex-flow: row wrap;
 	}
+.mainpagetext div{
+	width: 25%;
+	margin:10px 0 20px 0;
+	background-color: #c1424270;
+	border-radius: 10px 10px 0 0;
+		padding: 1%;
+}
 
+.mainpagetext div p{
+	font-size: 1.5rem;
+}
 	/* -------- Hamburger CSS Code
 							https://codepen.io/g13nn/pen/eHGEF  ------------- */
 
@@ -134,11 +150,11 @@ main {
 	  outline:none;
 	  z-index:10000000000000;
 	}
-	.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
-	.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+	.menu{z-index:1000000; font-weight:bold; font-size:1.5rem; width:100%; background:#c14242;  position:absolute; text-align:center; font-size:1.2rem;}
+	.menu ul {margin: 0 0 5px 0; padding: 0; list-style-type: none; list-style-image: none;}
 	.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
 	.menu li:hover{display: block;    background:#6766b3; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-	.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+	.menu ul li a { text-decoration:none;  margin: 0px; color:#ffffff;}
 	.menu ul li a:hover {  color: #c0bfff; text-decoration:none;}
 	.menu a{text-decoration:none; color:#666;}
 	.menu a:hover{text-decoration:none; color:#666;}
@@ -160,8 +176,28 @@ main {
 		margin: auto;
 		}
 
+.mieuxmug {
+	width: 100%;
+    object-fit: cover;
+    text-align: center;
+		margin: 15px 0;
+	}
+.mieuxmug img {
+	height: 12rem;
+	    width: 12rem;
+	    border-radius: 90px;
+	    object-fit: cover;
+			margin: 15px 0;
+	    box-shadow: 0px 22px 10px black;
+}
+.mainpagetext h2 {
+	text-align: center;
+	color: #6c3937;
+	}
 
-
+	.menu ul li:hover {
+		background-color: black;
+	}
 	/*-----------------------Animation-----------------------------*/
 	/* .work {
 	 border-radius: 5px;
@@ -204,9 +240,9 @@ main {
 		filter: grayscale(0);
 	}
 */
+
+
 /* --------------------Ihover code --------------------------------- */
-
-
 
 .ih-item.square.effect15 {
   overflow: hidden;
@@ -411,6 +447,16 @@ main {
 		margin: 0 auto;
 		text-align: center;
 	}
+	.mainfigures {
+		width: 75%;
+	}
+	.mainpagetext {
+		flex-flow: row wrap;
+	}
+	.mainpagetext div{
+		width: 90%;
+    justify-content: space-evenly;
+  	}
 }
 
 
@@ -432,6 +478,14 @@ main {
 		width: 28%;
 		object-fit:cover;
  	}
+	.mieuxmug img {
+		height: 20rem;
+    width: 20rem;
+    border-radius: 160px;
+	}
+	.mainpagetext div{
+		width: 30%;
+	}
 }
 
 
@@ -456,10 +510,23 @@ main {
 		.desktop-menu li {
 			display:inline-flex;
 			width: 20%;}
-   	 header {
+
+	  header {
 		 background-position: 1px -152px;
 	 }
 	 .ih-item.square {
 		 width: 30%;
+	 }
+	 .mainfigures {
+		 width: 60%;
+	 }
+	 .mieuxmug img {
+		height: 30rem;
+		 width: 100%;
+		 border-radius: 0;
+		 object-fit: cover;
+		 margin: 15px 0;
+		 object-position: -5px -90px;
+}
 	 }
 }
