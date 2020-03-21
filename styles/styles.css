@@ -208,7 +208,7 @@ main {
 	}
 	*/
 
-	.desktop-menu a:hover {
+	.desktop-menu a:hover, h2:hover {
 			font-size: 2rem;
 			transition: .3s;
 			transform: rotateZ(-1deg);
