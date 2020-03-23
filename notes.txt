@@ -6,3 +6,7 @@ https://stackoverflow.com/questions/1175557/how-to-shift-a-background-image-with
 
 
 https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users/
+
+
+-----------------Javascript----------------
+https://tobiasahlin.com/moving-letters/#1

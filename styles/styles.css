@@ -7,6 +7,7 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
 a {
 	text-decoration: none;
 }
@@ -87,7 +88,7 @@ main {
 		height: 100%;
 		object-fit: cover;
 	}
-.mieuxhead {
+.ml1{
 	text-align: center;
   margin: 0 auto;
   font-size: 2.2rem;
@@ -462,7 +463,7 @@ main {
 
 /* ---------- Min Width 768px  ------------------*/
 @media (min-width: 768px) {
-	.mieuxhead {
+	.ml1 {
 	  font-size: 3.2rem;
 	  width: 70%;
 	 }
@@ -495,7 +496,7 @@ main {
 		width: 80%;
 		margin: 0 auto;
 	}
-	.mieuxhead {
+	.ml1 {
 	  font-size: 3.2rem;
 	  width: 70%;
 	 }
