@@ -7,7 +7,11 @@
 
 		<title>Mieux the Cat</title>
 
+		<!--Styles-->
 		<link type="text/css" rel="stylesheet" href="styles/styles.css" />
+		<!--Slick Styles-->
+		<link rel="stylesheet" type="text/css" href="styles/slick.css"/>
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!--[if lt IE 9]>
@@ -23,8 +27,11 @@
 			<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
 			<!--Moving Letter script -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 			</head>
 			<body>
+
+
 			<header>
 
 			<h1 class="ml1">
@@ -39,7 +46,7 @@
 
 		<nav class="menu">
 				<ul>
-					<li><a href="index.html">About this guy</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="friends.html">Friends </a></li>
 					<li><a href="stories.html">Stories</a></li>
 					<li><a href="sphynxes.html">Sphynxes</a></li>
@@ -48,17 +55,38 @@
 
 		<nav class="desktop-menu">
 				<ul>
-					<li><a href="index.html">About this guy</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="friends.html">Friends </a></li>
 					<li><a href="stories.html">Stories</a></li>
 					<li><a href="sphynxes.html">Sphynxes</a></li>
 				</ul>
 		</nav>
 
+
+
 		<main>
+
+ <!-- Original
 			<section class = "mieuxmug">
-					<img src="images/hpim1607.jpg" alt="">
-			</section >
+					<img src="images/hpim1607.jpg" alt="mieux_sitting"/>
+			</section>
+		-->
+
+
+			<!-- using Slick -->
+
+
+
+			<div class = "mieuxmug">
+					<img src="images/hpim1607.jpg" alt="mieux_sitting"/>
+					<img src="images/mieuxie.jpg" alt="mieux_sitting"/>
+					<img src="images/mieux1.jpg" alt="mieux_sitting"/>
+			</div>
+
+
+
+		<!-- Temp For Slick -->
+
 			<section class = "mainpagetext">
 				<div >
 				 <h2>No Hair</h2>
@@ -79,9 +107,12 @@
 		<footer>
 			<p> Mieux is a pretty cool dude</p>
 		</footer>
-
 		<!--hamburger Menu script -->
 		<script src="scripts/javascript.js">	</script>
+		<!--jQuery-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+			<!-- Slick -->
+		<script src="scripts/slick.min.js"></script>
 
 	</body>
 

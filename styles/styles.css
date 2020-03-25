@@ -12,8 +12,8 @@ a {
 	text-decoration: none;
 }
 html {
-	background-image: url("../images/back1.jpg");
 	background-color: #cccccc;
+	background-image: url("../images/back1.jpg");
 	background-attachment: fixed;
 
 }
@@ -99,9 +99,7 @@ main {
 }
 
 
-.mieuxfriends, .mainpagetext{
-	display: flex;
-		}
+
 	.mainpagetext {
 		width: 100%;
 		justify-content: space-evenly;
@@ -181,15 +179,15 @@ main {
 	width: 100%;
     object-fit: cover;
     text-align: center;
-		margin: 15px 0;
+		margin: 2px 0;
 	}
 .mieuxmug img {
 	height: 12rem;
 	    width: 12rem;
 	    border-radius: 90px;
 	    object-fit: cover;
-			margin: 15px 0;
-	    box-shadow: 0px 22px 10px black;
+			margin: 2px 0;
+	    box-shadow: 0px 10px 10px black;
 }
 .mainpagetext h2 {
 	text-align: center;
@@ -198,6 +196,25 @@ main {
 
 	.menu ul li:hover {
 		background-color: black;
+	}
+
+
+	.mieuxfriends, .mainpagetext{
+		display: flex;
+				}
+
+	.mieuxstories	{
+		display: flex;
+		align-items: stretch;
+	}
+	.mieuxstories section {
+		flex-basis: 95%;
+		display: flex;
+		margin-bottom: 20px;
+	}
+	.mieuxstories section img {
+		width: 20%;
+		height: 20vh;
 	}
 	/*-----------------------Animation-----------------------------*/
 	/* .work {
@@ -458,6 +475,19 @@ main {
 		width: 90%;
     justify-content: space-evenly;
   	}
+		.mieuxstories section {
+			flex-flow: wrap;
+		}
+		.mieuxstories section img {
+			width: 100%;
+		}
+		h4 {
+			width: 95%;
+			display: block;
+			text-align: center;
+			font-weight: bold;
+			background-color: #abb6a8;
+		}
 }
 
 
@@ -486,6 +516,18 @@ main {
 	}
 	.mainpagetext div{
 		width: 30%;
+	}
+	.mieuxstories section {
+		flex-flow: nowrap;
+	}
+	.mieuxstories section img {
+	 width: 30%;
+	 margin-right: 2rem;
+ }
+	.even {
+		order: 1;
+		margin-left: 2rem;
+		margin-right: 0;
 	}
 }
 
@@ -522,12 +564,17 @@ main {
 		 width: 60%;
 	 }
 	 .mieuxmug img {
-		height: 30rem;
+		height: 21rem;
 		 width: 100%;
 		 border-radius: 0;
 		 object-fit: cover;
-		 margin: 15px 0;
-		 object-position: -5px -90px;
-}
+		 margin: 2px 0;
+		 object-position: 0px -90px;
 	 }
+
+	 .mieuxstories section img {
+		 width: 20%;
+		 margin-right: 2rem;
+	 }
+
 }

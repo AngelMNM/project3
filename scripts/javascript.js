@@ -56,3 +56,16 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 201000
   });
+
+  //initialize Slick
+  $(document).ready(function(){
+  $('.mieuxmug').slick({
+    autoplay: true,
+    fade: true,
+    autoplayspeed: 10000,
+    speed: 2000,
+    dots: false,
+    infinite: true,
+    arrows: false,
+  });
+});
