@@ -215,6 +215,7 @@ main {
 	.mieuxstories section img {
 		width: 20%;
 		height: 20vh;
+		object-fit: cover;
 	}
 	/*-----------------------Animation-----------------------------*/
 	/* .work {
@@ -488,7 +489,31 @@ main {
 			font-weight: bold;
 			background-color: #abb6a8;
 		}
-}
+
+		.textblurbs {
+			width: 100%;
+			padding: .5rem;
+			background: rgba(193, 66, 66, 0.3);
+			height: fit-content;
+			border-radius: 20px;
+			margin: 10px .5em;
+			flex-grow: 1;
+	    }
+		.textblurbs h6{
+			font-size: large;
+    	font-family: pacifico;
+    	text-align: center;
+    	color: #9c707b;
+		}
+		.mieuxstories img {
+			width: 100%;
+			order: -1;
+			height: 30vh;
+			object-fit: cover;
+			object-position: 0px -117px;
+			margin: 10px.5em;
+		}
+	}
 
 
 /* ---------- Min Width 768px  ------------------*/
@@ -529,6 +554,31 @@ main {
 		margin-left: 2rem;
 		margin-right: 0;
 	}
+	.textblurbs {
+		width: 31%;
+		padding: .5rem;
+		background: rgba(193, 66, 66, 0.3);
+		height: fit-content;
+		border-radius: 20px;
+		margin: 10px .5em;
+		flex-grow: 1;
+		}
+	.textblurbs h6{
+			font-size: large;
+		font-family: pacifico;
+		text-align: center;
+		color: #9c707b;
+	}
+	.mieuxstories img {
+		order:0;
+		width: 27%;
+    height: 30vh;
+    object-fit: cover;
+    margin: 10px.5em;
+    box-shadow: rgba(193, 66, 66, .5) 0px 16px 5px;
+		object-position: -1px -27px;
+	}
+
 }
 
 
@@ -576,5 +626,9 @@ main {
 		 width: 20%;
 		 margin-right: 2rem;
 	 }
+
+
+
+
 
 }
