@@ -124,6 +124,10 @@ main {
 .mainpagetext div p{
 	font-size: 1.5rem;
 }
+
+
+
+
 	/* -------- Hamburger CSS Code
 							https://codepen.io/g13nn/pen/eHGEF  ------------- */
 
@@ -596,7 +600,7 @@ main {
 		object-position: -2px -8px;
 	}
 	.mieuxstories section img {
-		height: 20vh;
+		height: 100%;
 	}
 	.mieuxstories section .even {
 		order: 1;
@@ -610,6 +614,23 @@ main {
 	width: 90%;
 }
 
+/* -------- https://designshack.net/articles/css/joshuajohnson-2/  ------------- */
+
+.mieuxstories img {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.mieuxstories img:hover {
+  border-radius: 25%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 
