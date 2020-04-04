@@ -58,7 +58,6 @@ main {
 
 	footer {
 		width: 100%;
-		height: content;
 		background-color: #C14242;
 	}
 	footer p {
@@ -548,8 +547,8 @@ main {
 		 background-position: 1px -103px;
 	 }
 	 .logo {
-	 	height: 6em;
-	 	width: 6em;
+	 	height: 9em;
+	 	width: 9em;
 	 	position: absolute;
 	 	float: left;
 	 	margin-left: 1.5em;
@@ -590,7 +589,7 @@ main {
 	.mieuxstories img {
 		order:0;
 		width: 27%;
-    height: 30vh;
+    height: 35vh;
     object-fit: cover;
     margin: 10px.5em;
 		box-shadow: rgba(25, 8, 8, 0.5) 0px 16px 5px;
@@ -623,7 +622,7 @@ main {
 	}
 	.ml1 {
 	  font-size: 3.2rem;
-	  width: 70%;
+	  width: 60%;
 	 }
 	 .menu, .hamburger, .cross {
 		 display: none;
