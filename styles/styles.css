@@ -619,6 +619,7 @@ main {
 		 display: flex;
 		 justify-content: space-evenly;
 		 transition: .2s;
+		 background-: #9e4040;
 		}
 		.desktop-menu li {
 			display:inline-flex;

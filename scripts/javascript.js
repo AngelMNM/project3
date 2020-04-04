@@ -1,3 +1,5 @@
+
+
 $( document ).ready(function() {
 
 $( ".cross" ).hide();
@@ -19,11 +21,7 @@ $( ".hamburger" ).show();
 });
 
 
-/* Smoosthscroll script...guess it needs to be in the html
 
- var scroll = new SmoothScroll('a[href*="#"]');
-
- */
 
 /* Moving Letters script
 https://tobiasahlin.com/moving-letters/#1

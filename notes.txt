@@ -16,3 +16,6 @@ http://www.netzgesta.de/snapfit/
 
 ---------Slick----------
 https://kenwheeler.github.io/slick/
+
+
+---------https://simplemodal.plasm.it/#overview------------
